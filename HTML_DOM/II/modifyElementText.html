@@ -1,0 +1,19 @@
+<html>
+<body>
+
+<div>
+    <span>Hello</span>
+    <span style="display: none;">Bye</span>
+</div>>
+
+<script>
+const h = document.createElement('h1');
+h.innerText = "H1";
+body.append(h);
+
+const div = document.querySelector('div');
+console.log(div.textContent) // Hello + Bye, prints the exact text content
+console.log(div.innerText) // Hello, innerText looks at the css to see if the text is displayed.
+</script>
+</body>
+</html>
